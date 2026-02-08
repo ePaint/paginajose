@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mensaje enviado correctamente - Pinturas y Reparaciones MG">
+    <title>Mensaje Enviado - Pinturas y Reparaciones MG</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <a href="index.html" class="nav__logo">Pinturas y Reparaciones MG</a>
+            <ul class="nav__menu nav__menu--visible">
+                <li><a href="index.html" class="nav__link">Volver al inicio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="thanks">
+            <div class="container">
+                <div class="thanks__content">
+                    <div class="thanks__icon">✓</div>
+                    <h1 class="thanks__title">¡Mensaje enviado!</h1>
+                    <p class="thanks__text">Gracias por contactar con nosotros. Hemos recibido tu mensaje y te responderemos lo antes posible.</p>
+                    <a href="index.html" class="btn btn--primary">Volver al inicio</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__text">&copy; <span id="current-year"></span> Pinturas y Reparaciones MG. Todos los derechos reservados.</p>
+            <p class="footer__location">Disponible en todos los distritos de Madrid</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
