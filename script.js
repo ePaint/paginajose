@@ -76,6 +76,12 @@ document.addEventListener('DOMContentLoaded', function () {
                 isValid = false;
             }
 
+            const telefono = contactForm.querySelector('#telefono');
+            if (!telefono.value.trim()) {
+                showError(telefono, 'Por favor, introduce tu número de teléfono');
+                isValid = false;
+            }
+
             if (!mensaje.value.trim()) {
                 showError(mensaje, 'Por favor, escribe tu mensaje');
                 isValid = false;
