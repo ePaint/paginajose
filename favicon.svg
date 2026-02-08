@@ -1,11 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="6" fill="#3D5A45"/>
-  <g transform="translate(4, 4)">
-    <!-- Paint roller -->
-    <rect x="6" y="3" width="12" height="8" rx="2" fill="#D4C4A8"/>
-    <rect x="7" y="4" width="10" height="6" rx="1" fill="#5D4E37"/>
-    <!-- Handle -->
-    <rect x="11" y="11" width="2" height="6" fill="#D4C4A8"/>
-    <rect x="10" y="17" width="4" height="5" rx="1" fill="#D4C4A8"/>
-  </g>
+  <rect width="32" height="32" rx="6" fill="#5D4E37"/>
+  <!-- MG Letters centered -->
+  <text x="16" y="17" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#D4C4A8" text-anchor="middle" dominant-baseline="middle">MG</text>
 </svg>
